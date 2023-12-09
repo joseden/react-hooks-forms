@@ -1,8 +1,10 @@
+// index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Form from './components/Form'
+import App from './components/App';
 
 ReactDOM.render(
-  <Form />,
+  <App />, // Correct component name to App
   document.getElementById('root')
 );
+
